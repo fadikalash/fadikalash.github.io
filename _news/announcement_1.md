@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-3-13 
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Happy to share that our paper "Real-time defect detection and classification in robotic assembly lines: a machine learning framework" has been Published in the Robotics and Computer-Integrated Journal

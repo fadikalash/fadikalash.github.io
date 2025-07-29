@@ -178,6 +178,7 @@ exclude:
   - _pages/profiles
   - _pages/projects
   - _pages/repositories
+  - _pages/teaching.md
 keep_files:
   - CNAME
   - .nojekyll
@@ -234,8 +235,8 @@ terser:
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [El Kalach]
+  first_name: [Fadi]
 
   style: apa
   locale: en

@@ -2,96 +2,93 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Fadi El Kalach
+    - name: Email
+      value: felkala@clemson.edu
+    - name: Mobile
+      value: (803) 463 3300
+    - name: Location
+      value: Greenville, SC
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: PhD Automotive Engineering
+      institution: Clemson University
+      year: 2025 - Present
+
+    - title: PhD Mechanical Engineering
+      institution: University of South Carolina
+      year: 2022 - 2024
+
+    - title: MSc Computer Engineering
+      institution: University of South Carolina
+      year: 2020- 2022
+
+    - title: BE Mechatronics Engineering
+      institution: Lebanese American University
+      year: 2015- 2020
+
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Research Assistant
+      institution: Clemson University
+      year: 01/2025-Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - title: <b>Research Topic 1</b>- Digital Twins in Composites Manufacturing
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Conducting an exhaustive review of Digital Twin applications in the realm of composites manufacturing.
+        - title: <b>Research Topic 2</b>- Time Series Forecasting
+          contents:
+            - Utilizing forecasting algorithms for anomaly forecasting and robot monitoring in manufacturing systems.
+    - title: Graduate Researcher and Technical Lead
+      institution: University of South Carolina
+      year: 10/2020 - 12/2024
       description:
-        - Description 1.
-        - Description 2.
+        - First graduate student to be part of the Future Factories team and the Artificial Intelligence Institute at UofSC.
+        - Constructed a manufacturing research testbed with advanced technologies including Edge Computing, Digital Twins, and IIoT capabilities.
+        - Lead and mentored a group of 10 MS/PhD students.
+        - title: <b>Research Topic 1</b> - Fault Tolerant Manufacturing
+          contents:
+            - Utilized Semantic Web technologies deployed at the Edge level to realize Autonomous Manufacturing use cases.
+            - Created mapping from generated raw sensor data to RDF triples.
+            - Semantic Modelling was done on a custom application developed and deployed on the Siemens IPC227E Edge device.
+            - Generated real time Industrial Knowledge Graph.
+            - Applied reasoning and knowledge extraction principles for decision making processes.
+        - title: <b>Research Topic 2</b> - Explainable AI in Manufacturing
+          contents:
+            - Employed Knowledge Graphs to address explainability issue of Machine Learning models in Manufacturing.
+            - Explainability entails providing possible reasons to Technicians for a Machine Learning model’s prediction, eradicating the “black-box”.
+        - title: <b>Research Topic 3</b> - Time Series Classification
+          contents:
+            - Developed a framework for real time deployment of TSC on industrial manufacturing systems.
+            - Trained multiple TSC models to compare results.
+            - Created end-to-end application for real time monitoring and classification of manufacturing assembly line.
+        - title: <b>Research Topic 4</b> - Cognitive Manufacturing
+          contents:
+            - Performed exhaustive literature review to establish new research field of Cognitive Manufacturing.
+            - Defined the term Cognitive Manufacturing and associated trends within the field.
+            - Publication was accepted within the first submission in a top 3 manufacturing journal.
+        - title: <b>Research Topic 5</b> - Data-Driven Manufacturing
+          contents:
+            - Collected, processed, and published two manufacturing datasets to be used for various research projects.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Automation Runtime System Research & Development Intern
+      institution: Siemens Corporation, R&D Department
+      year: 05/2023-08/2023
       description:
+        - Developed Proof of Concept for a Federated Information System.
+        - Vital as scalable solution for Vertical Integration of Manufacturing Systems.
+        - Novel modular and interoperable solution ready to be implemented in manufacturing facilities.
+        - Adopted technologies such as GraphQL, Flask, Knowledge Graphs, and OPC UA
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Controls and Instrumentation Engineering Consultant Intern
+      institution: Dar Al Handasah (Shair & Co)
+      year: 07/2019-08/2019
+      description:
+        - Designed and presented PLC projects required for industrial automation.
+        - Facilitated the development of Building Management System (BMS) designs.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
